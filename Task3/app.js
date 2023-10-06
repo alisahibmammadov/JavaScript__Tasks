@@ -82,3 +82,16 @@ function isEven (num){
 
 console.log(isEven(3));// false
 console.log(isEven(2));// true
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+function getDivisibleBy3InRange(num1, num2) {
+    let arr = [];
+    let a = 0
+    for (let i = num1; i < num2; i++) {
+      if (i % 3 === 0) {
+        arr.push(i);
+      }
+    }
+    return console.log(arr[1]);
+  }
+  getDivisibleBy3InRange(20, 50);
+  
