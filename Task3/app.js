@@ -72,6 +72,9 @@ function isEven (num){
         return false
     }
 }
+// function isEven (num){
+//     return num % 2 === 0 ? true : false
+// }
 
 console.log(isEven(3));// false
 console.log(isEven(2));// true
