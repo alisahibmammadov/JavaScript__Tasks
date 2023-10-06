@@ -58,8 +58,8 @@ console.log(a());
 // ***************************************
 
 function getNumber() {
-  let num = +prompt("Eded daxil edin ");
-  return num;
+ return  +prompt("Eded daxil edin ");
+  
 }
 let ed1 = getNumber();
 let ed2 = getNumber();
