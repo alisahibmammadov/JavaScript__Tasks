@@ -73,4 +73,5 @@ function isEven (num){
     }
 }
 
-console.log(isEven(3));
+console.log(isEven(3));// false
+console.log(isEven(2));// true
