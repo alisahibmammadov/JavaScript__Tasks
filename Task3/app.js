@@ -61,6 +61,6 @@ function getNumber() {
  return  +prompt("Eded daxil edin ");
   
 }
-let ed1 = getNumber();
-let ed2 = getNumber();
-console.log(ed1 + ed2);
+let num1 = getNumber();
+let num2 = getNumber();
+console.log(num1 + num2);
