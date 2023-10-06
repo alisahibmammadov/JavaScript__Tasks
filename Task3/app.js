@@ -64,3 +64,13 @@ function getNumber() {
 let num1 = getNumber();
 let num2 = getNumber();
 console.log(num1 + num2);
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+function isEven (num){
+    if(num % 2 === 0 ){
+        return true
+    }else{
+        return false
+    }
+}
+
+console.log(isEven(3));
