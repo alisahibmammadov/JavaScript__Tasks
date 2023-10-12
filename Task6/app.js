@@ -40,14 +40,14 @@
 // add(2, 5, (num) => console.log(num));
 // add(2, 5, (num) => alert(num));
 //* TASK 8
-// function genderName(gender, name) {
-//   gender("K");
-//   console.log(name);
-// }
-// genderName((g) => {
-//   if (g === "K") {
-//     console.log("Mr");
-//   } else if (g === "Q") {
-//     console.log("Ms");
-//   }
-// }, "Alisahib");
+function genderName(gender, name) {
+  gender("K");
+  console.log(name);
+}
+genderName((g) => {
+  if (g === "K") {
+    console.log("Mr");
+  } else if (g === "Q") {
+    console.log("Ms");
+  }
+}, "Alisahib");
