@@ -1,0 +1,3 @@
+const prop2taker = () => {
+    
+};
