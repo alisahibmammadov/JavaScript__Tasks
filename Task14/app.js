@@ -1,6 +1,5 @@
 function repeatedSymbolCounter(str, str2) {
-  let newStr = str.replaceAll(str2, "");
-  return str.length - newStr.length;
+  return str.length - str.replaceAll(str2, "").length;
 }
 
 console.log(repeatedSymbolCounter("ALIONALI", "A"));
