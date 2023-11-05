@@ -24,3 +24,13 @@
 //   console.log(names.indexOf(name) + "-" + names[names.indexOf(name)]);
 // };
 // names.forEach(printWithIndex);
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// const kebabToSnake = (str)=>{
+//     console.log(str.split('-').join('_').toUpperCase())
+// }
+
+
+// kebabToSnake("ali-greenheart"); //ALI_GREENHEART
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+let numbers = [1, 5, -7, 3, -9, 4, -6, 2]
