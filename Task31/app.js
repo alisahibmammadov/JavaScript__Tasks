@@ -32,7 +32,11 @@
 
 // kebabToSnake("ali-greenheart"); //ALI_GREENHEART
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-let numbers = [1, 5, -7, 3, -9, 4, -6, 2];
-let newArr = numbers.map((elem) => (elem < 0 ? elem * -1 : elem * 2))
+// let numbers = [1, 5, -7, 3, -9, 4, -6, 2];
+// let newArr = numbers.map((elem) => (elem < 0 ? elem * -1 : elem * 2))
 
-console.log(newArr);
+// console.log(newArr);
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+let names = ['Sam', 'Alan', 'Bill', 'Adam', 'Anna', 'George']
+console.log(names.filter(elem=>elem[0] === 'A'));
