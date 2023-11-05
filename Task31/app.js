@@ -38,5 +38,23 @@
 // console.log(newArr);
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-let names = ['Sam', 'Alan', 'Bill', 'Adam', 'Anna', 'George']
-console.log(names.filter(elem=>elem[0] === 'A'));
+let names = ["Sam", "Alan", "Bill", "Adam", "Anna", "George"];
+console.log(names.filter((elem) => elem[0] === "A"));
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+let numbers = [1, 4, 7, 8, 3, 5, 0, 2, 4, 6, 12, 15, 18, 46, 45, 48, 97, 84];
+let odd = 0;
+let even = 0;
+const countEvensAndOdds = (arr) => {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0 && arr[i] - 2 !== -2 ) {
+      even++;
+    //   console.log(even);
+    } else if (arr[i] % 2 === 1) {
+      odd++;
+    }
+  }
+  console.log("odd"+ " "+odd,"even"+" "+even);
+};
+
+countEvensAndOdds(numbers); // evens: 10, odds: 7
